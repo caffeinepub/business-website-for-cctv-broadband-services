@@ -1,2 +1,3 @@
-# business-website-for-cctv-broadband-services
-Exported from Caffeine project: Skynet Services
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

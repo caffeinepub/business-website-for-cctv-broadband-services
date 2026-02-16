@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.5rem;
+        /* Light mode - Clean whites with charcoal text */
+        --background: 0.99 0 0;
+        --foreground: 0.25 0.01 260;
+        --card: 1 0 0;
+        --card-foreground: 0.25 0.01 260;
+        --popover: 1 0 0;
+        --popover-foreground: 0.25 0.01 260;
+        /* Amber primary for trust and energy */
+        --primary: 0.65 0.18 65;
+        --primary-foreground: 0.15 0.01 260;
+        /* Charcoal secondary */
+        --secondary: 0.35 0.02 260;
+        --secondary-foreground: 0.98 0 0;
+        --muted: 0.96 0.005 260;
+        --muted-foreground: 0.50 0.01 260;
+        --accent: 0.95 0.01 65;
+        --accent-foreground: 0.25 0.01 260;
+        --destructive: 0.55 0.22 25;
+        --destructive-foreground: 0.98 0 0;
+        --border: 0.90 0.005 260;
+        --input: 0.90 0.005 260;
+        --ring: 0.65 0.18 65;
+        --chart-1: 0.65 0.18 65;
+        --chart-2: 0.55 0.15 140;
+        --chart-3: 0.45 0.12 200;
+        --chart-4: 0.60 0.16 30;
+        --chart-5: 0.50 0.14 280;
+        --sidebar: 0.99 0 0;
+        --sidebar-foreground: 0.25 0.01 260;
+        --sidebar-primary: 0.65 0.18 65;
+        --sidebar-primary-foreground: 0.15 0.01 260;
+        --sidebar-accent: 0.96 0.005 260;
+        --sidebar-accent-foreground: 0.25 0.01 260;
+        --sidebar-border: 0.90 0.005 260;
+        --sidebar-ring: 0.65 0.18 65;
+    }
+
+    .dark {
+        /* Dark mode - Deep charcoal with amber highlights */
+        --background: 0.15 0.01 260;
+        --foreground: 0.95 0.005 260;
+        --card: 0.20 0.015 260;
+        --card-foreground: 0.95 0.005 260;
+        --popover: 0.18 0.012 260;
+        --popover-foreground: 0.95 0.005 260;
+        /* Brighter amber for dark mode */
+        --primary: 0.75 0.20 65;
+        --primary-foreground: 0.15 0.01 260;
+        --secondary: 0.28 0.02 260;
+        --secondary-foreground: 0.95 0.005 260;
+        --muted: 0.25 0.015 260;
+        --muted-foreground: 0.65 0.01 260;
+        --accent: 0.30 0.02 65;
+        --accent-foreground: 0.95 0.005 260;
+        --destructive: 0.60 0.24 25;
+        --destructive-foreground: 0.95 0.005 260;
+        --border: 0.30 0.02 260;
+        --input: 0.30 0.02 260;
+        --ring: 0.75 0.20 65;
+        --chart-1: 0.75 0.20 65;
+        --chart-2: 0.60 0.16 140;
+        --chart-3: 0.50 0.14 200;
+        --chart-4: 0.70 0.18 30;
+        --chart-5: 0.55 0.15 280;
+        --sidebar: 0.18 0.012 260;
+        --sidebar-foreground: 0.95 0.005 260;
+        --sidebar-primary: 0.75 0.20 65;
+        --sidebar-primary-foreground: 0.15 0.01 260;
+        --sidebar-accent: 0.25 0.015 260;
+        --sidebar-accent-foreground: 0.95 0.005 260;
+        --sidebar-border: 0.30 0.02 260;
+        --sidebar-ring: 0.75 0.20 65;
+    }
+
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}

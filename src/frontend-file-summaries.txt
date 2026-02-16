@@ -1,0 +1,14 @@
+{
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring charcoal/graphite base with amber accents for a security/telecom aesthetic, supporting both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom fonts (Inter, Outfit), extended color tokens, varied border radii, glow shadows, and fade-in animations for a cohesive design system.",
+  "frontend/src/App.tsx": "Main application component that composes the single-page layout with header, hero, services, about, contact sections, and footer.",
+  "frontend/src/components/site/SiteHeader.tsx": "Responsive header with logo, smooth-scroll navigation, mobile menu, and prominent CTA button that adapts on scroll, now branded as \"Skynet Services\".",
+  "frontend/src/components/site/SiteFooter.tsx": "Footer with company info, quick links, services list, contact details, social media icons, and Caffeine attribution with UTM tracking, now branded as \"Skynet Services\".",
+  "frontend/src/components/sections/HeroSection.tsx": "Hero section with background image, compelling headline, trust indicators, and dual CTAs for quote requests and calls.",
+  "frontend/src/components/sections/ServicesSection.tsx": "Services section displaying CCTV and Broadband offerings in cards with feature lists, icons, and CTAs linking to contact.",
+  "frontend/src/components/sections/AboutSection.tsx": "About section showcasing six differentiators (fast installation, warranty, experts, local service, maintenance, support) with stats and company description, now branded as \"Skynet Services\".",
+  "frontend/src/components/sections/ContactSection.tsx": "Contact section with business information card and validated contact form featuring name, contact, service selector, and message fields with success confirmation.",
+  "frontend/src/components/hooks/useContactForm.ts": "Custom hook managing contact form state, validation, submission simulation, and success state transitions with error handling.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks to interact with backend (currently empty as backend has no methods).",
+  "frontend/index.html": "HTML entry point with updated page title referencing \"Skynet Services - CCTV & Broadband Solutions\"."
+}

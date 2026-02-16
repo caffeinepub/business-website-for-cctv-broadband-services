@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Website project for Skynet Services, a business offering CCTV and broadband services.",
+  "architectural_notes": [
+    "Business name should be displayed as \"Skynet Services\" across the site (e.g., header/hero/footer/contact)."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-multi-section-marketing-website-single-page-layout-is-acceptable-for-a-business-that-offers-cctv-installation-and-broadband-services-with-clear-navigation-and-calls-to-action",
+      "title": "Create a responsive multi-section marketing website (single-page layout is acceptable) for a business that offers CCTV installation and broadband services, with clear navigation and calls-to-action.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-services-section-that-clearly-presents-at-least-two-service-categories-cctv-e-g-installation-maintenance-remote-viewing-setup-and-broadband-e-g-new-connection-upgrades-troubleshooting-use-english-for-all-user-facing-text",
+      "title": "Add a Services section that clearly presents at least two service categories: CCTV (e.g., installation, maintenance, remote viewing setup) and Broadband (e.g., new connection, upgrades, troubleshooting). Use English for all user-facing text.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-about-why-choose-us-section-suitable-for-a-small-local-services-business-including-space-for-business-name-service-area-and-key-differentiators-e-g-fast-installation-warranty-support",
+      "title": "Add an About/Why Choose Us section suitable for a small local services business, including space for business name, service area, and key differentiators (e.g., fast installation, warranty, support).",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-contact-section-with-a-contact-form-that-collects-name-phone-email-service-interest-cctv-broadband-and-message-plus-a-visible-block-for-business-phone-number-and-email-address-as-placeholders-submission-should-provide-an-on-screen-confirmation",
+      "title": "Add a Contact section with a contact form that collects name, phone/email, service interest (CCTV/Broadband), and message, plus a visible block for business phone number and email address (as placeholders). Submission should provide an on-screen confirmation.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-establish-a-coherent-visual-theme-appropriate-for-a-security-telecom-services-business-avoid-blue-purple-by-default-including-typography-spacing-component-styling-and-consistent-iconography-across-sections",
+      "title": "Establish a coherent visual theme appropriate for a security/telecom services business (avoid blue/purple by default), including typography, spacing, component styling, and consistent iconography across sections.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-required-generated-images-as-static-assets-under-frontend-public-assets-generated-and-use-them-in-the-ui-e-g-hero-banner-and-logo-without-routing-images-through-the-backend",
+      "title": "Add the required generated images as static assets under frontend/public/assets/generated and use them in the UI (e.g., hero banner and logo) without routing images through the backend.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-business-name-to-skynet-services-across-all-user-facing-ui-locations-where-the-current-business-name-appears-e-g-header-brand-text-footer-brand-text-about-section-heading-copyright-line-and-update-relevant-logo-alt-text-accordingly",
+      "title": "Update the business name to \"Skynet Services\" across all user-facing UI locations where the current business name appears (e.g., header brand text, footer brand text, About section heading, copyright line), and update relevant logo alt text accordingly.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-html-document-title-to-use-the-business-name-skynet-services-replacing-the-current-generic-old-title",
+      "title": "Update the HTML document title to use the business name \"Skynet Services\" (replacing the current generic/old title).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a business website for CCTV and broadband services.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Skynet Services",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

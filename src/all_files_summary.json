@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no backend logic.",
+  "feature_evidence.json": "Report mapping two UI branding features to affected frontend files and components.",
+  "frontend-file-summaries.txt": "Prewritten summaries describing the purpose of major frontend files and components.",
+  "frontend/index.css": "Tailwind base styles defining extensive OKLCH theme variables for light and dark mode.",
+  "frontend/index.html": "HTML entry point setting the Skynet Services page title and mounting the React app.",
+  "frontend/src/App.tsx": "Main app layout composing header, sections, and footer into a single page.",
+  "frontend/src/components/hooks/useContactForm.ts": "Custom hook managing contact form state, validation, submission simulation, and reset.",
+  "frontend/src/components/sections/AboutSection.tsx": "About section with differentiator cards, Skynet Services branding, and stats.",
+  "frontend/src/components/sections/ContactSection.tsx": "Contact section with business info and a validated contact form powered by the hook.",
+  "frontend/src/components/sections/HeroSection.tsx": "Hero area with background image, headline, CTAs, and trust metrics.",
+  "frontend/src/components/sections/ServicesSection.tsx": "Renders a services section with cards for CCTV and broadband offerings and includes smooth scrolling to the contact section.",
+  "frontend/src/components/site/SiteFooter.tsx": "Displays a footer with company info, social links, quick navigation, and smooth-scrolling helpers.",
+  "frontend/src/components/site/SiteHeader.tsx": "Implements a responsive header with scroll-based styling, navigation links, mobile menu, and smooth section scrolling.",
+  "frontend/src/hooks/useActor.ts": "Provides a React Query hook that creates and refreshes a backend actor based on the current Internet Identity.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Implements an authentication context for Internet Identity, handling login, logout, identity loading, and status tracking.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for future backend-related React Query hooks.",
+  "frontend/src/index.css": "Defines Tailwind base styles and CSS variables for light and dark themes with custom color tokens.",
+  "frontend/src/main.tsx": "Bootstraps the React app, wrapping it with React Query and Internet Identity providers.",
+  "frontend/tailwind.config.js": "Configures Tailwind with dark mode, custom fonts, OKLCH color variables, extended radius and shadows, and animation keyframes. Includes typography, container queries, and animate plugins.",
+  "project_state.json": "Defines project metadata, feature requirements, and architectural notes for the Skynet Services website build."
+}

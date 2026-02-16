@@ -1,0 +1,43 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-business-name-to-skynet-services-across-all-user-facing-ui-locations-where-the-current-business-name-appears-e-g-header-brand-text-footer-brand-text-about-section-heading-copyright-line-and-update-relevant-logo-alt-text-accordingly",
+      "featureTitle": "Update the business name to \"Skynet Services\" across all user-facing UI locations where the current business name appears (e.g., header brand text, footer brand text, About section heading, copyright line), and update relevant logo alt text accordingly.",
+      "files": [
+        "frontend/src/components/sections/AboutSection.tsx",
+        "frontend/src/components/site/SiteFooter.tsx",
+        "frontend/src/components/site/SiteHeader.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-html-document-title-to-use-the-business-name-skynet-services-replacing-the-current-generic-old-title",
+      "featureTitle": "Update the HTML document title to use the business name \"Skynet Services\" (replacing the current generic/old title).",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
